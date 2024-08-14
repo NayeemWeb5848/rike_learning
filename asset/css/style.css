@@ -1,0 +1,1384 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* =========================================
+                Common css End
+    ======================================= */
+
+
+
+/* NAV *********** */
+
+.my_bg {
+  background: rgb(239, 232, 232);
+}
+
+.navbar-collapse {
+  margin-left: 52px;
+}
+
+.navbar-collapse .navbar-nav .nav-item a {
+  color: rgb(77 77 77);
+  font-size: 17px;
+  font-weight: 500;
+  transition: all linear.2s;
+}
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+  color: rgb(0, 30, 255);
+}
+
+.navbar-collapse .login_button {
+  float: right;
+  margin: 0 auto;
+}
+
+.navbar-collapse .login_button .login {
+  color: #fff;
+  padding: 10px 31px;
+  background: rgb(255 72 2);
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 6px;
+}
+
+
+/*  BANNER ******************  */
+
+#banner_part {
+  padding: 60px 0;
+  background: rgb(71 85 105);
+}
+
+#banner_part .banner_text .banner_text_h1 {
+  font-size: 67px;
+  color: #fff;
+  font-weight: 800;
+  line-height: 67px;
+}
+
+#banner_part .banner_text .banner_text_p {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding-top: 29px;
+}
+
+#banner_part .banner_buttons .login:hover {
+  background: rgb(255 72 2);
+}
+
+#banner_part .banner_buttons {
+  padding-top: 30px;
+}
+
+#banner_part .banner_buttons a {
+  color: #fff;
+  padding: 10px 31px;
+  background: rgb(255 72 2);
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 10px 10px;
+  transition: all linear.2s;
+}
+
+#banner_part .banner_buttons a .icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#banner_part .banner_buttons a:hover {
+  background: linear-gradient(250deg, #1015a6, rgb(255 72 2));
+}
+
+#banner_part .banner_buttons .book:hover {
+  background: linear-gradient(250deg, #0073ff, rgb(255 72 2));
+}
+
+#banner_part .banner_buttons .what:hover {
+  background: linear-gradient(250deg, #00ff04, rgb(255 72 2));
+}
+
+#banner_part .banner_buttons .home:hover {
+  background: linear-gradient(250deg, #fbff00, rgb(255 72 2));
+}
+
+#banner_part .banner_img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Attach Banner */
+
+#attach_banner {
+  background: rgb(241 245 249);
+  padding: 35px 0;
+}
+
+#attach_banner .attach_banner_content ul li .fa-user {
+  background: rgb(255 72 2);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+#attach_banner .attach_banner_content ul li .fa-message {
+  background: rgb(61, 255, 2);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+#attach_banner .attach_banner_content ul li .fa-book {
+  background: rgb(2, 247, 255);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+#attach_banner .attach_banner_content ul li {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+
+
+/* choose_rik_elearning ************* */
+
+#choose_rik_elearning {
+  padding: 80px 0;
+}
+
+#choose_rik_elearning .choose_rik_elearning_header {
+  text-align: center;
+}
+
+#choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+#choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 15px;
+}
+
+#choose_rik_elearning .choose_rik_elearning_content {
+  padding-top: 70px;
+}
+
+#choose_rik_elearning .choose_rik_elearning_content img {
+  width: 36%;
+  height: 10%;
+}
+
+#choose_rik_elearning .choose_rik_elearning_content_h3 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+  padding-top: 15px;
+}
+
+#choose_rik_elearning .choose_rik_elearning_content_p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 15px;
+}
+
+/* courses_part **************** */
+
+#courses_part {
+  background: rgb(241 245 249);
+  padding: 60px 0;
+}
+
+#courses_part .courses_part_header .courses_part_header_h3 {
+  color: #000000;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+#courses_part .courses_part_header .courses_part_header_p {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: sans-serif;
+  display: flex;
+}
+
+#courses_part .courses_part_header .courses_part_header_btn {
+  float: right;
+  border: none;
+  color: #fff;
+  padding: 7px 39px;
+  background: rgb(255 72 2);
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-size: 19px;
+  margin: -51px 0 0 0px;
+}
+
+#courses_part .courses_contents img {
+  width: 100%;
+  height: 14rem;
+  border-radius: 10px;
+}
+
+#courses_part .sy {
+  border: none;
+  margin: 22px 0;
+}
+
+#courses_part .courses_taitel_contents .money_line span {
+  float: right;
+}
+
+#courses_part .courses_taitel_contents .money_Lessons span {
+  float: right;
+}
+
+#courses_part .courses_taitel_contents .money_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#courses_part .courses_taitel_contents .courses_taitel_contents_h6 {
+  font-size: 16px;
+  color: rgb(107 114 128);
+  font-weight: 400;
+  padding-top: 22px;
+}
+
+#courses_part .courses_taitel_contents .courses_taitel_contents_h4 {
+  font-size: 25px;
+  color: rgb(12, 12, 12);
+  font-weight: 700;
+  padding-top: 12px;
+  line-height: 41px;
+}
+
+#courses_part .courses_taitel_contents .money {
+  padding-top: 30px;
+}
+
+#courses_part .courses_taitel_contents .money span {
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(249 128 128);
+}
+
+#courses_part .courses_taitel_contents .money_line span {
+  font-size: 17px;
+  color: rgb(1, 1, 1);
+  margin: -25px 0 0 0px;
+}
+
+#courses_part .courses_taitel_contents .money_Lessons span {
+  font-size: 15px;
+  color: rgb(1, 1, 1);
+  margin: -72px 0 0 0px;
+  padding: 0px 20px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+#courses_part .courses_taitel_contents .money_img img {
+  margin: 38px 0;
+}
+
+
+/* journey **************** */
+
+
+#journey_part {
+  padding-top: 115px;
+}
+
+#journey_part .journey_content_1 {
+  display: flex;
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 2px 20px 10px 20px;
+  box-shadow: 1px 6px 14px -10px;
+  margin: 28px 0;
+}
+
+#journey_part .journey_content_1 img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+#journey_part .journey_content {
+  margin: 24px 9px 0 11px;
+}
+
+#journey_part .journey_content_1 .journey_content .journey_content_h3 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#journey_part .journey_content_1 .journey_content .journey_content_p {
+  color: rgb(107 114 128);
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 7px;
+}
+
+#journey_part .journey_content_text_2 {
+  margin-left: 5rem;
+}
+
+#journey_part .journey_content_text_2 .journey_content_text_h2 {
+  font-size: 51px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 49px;
+}
+
+#journey_part .journey_content_text_2 .journey_content_text_p {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(107 114 128);
+  padding: 19px 0;
+}
+
+#journey_part .journey_content_text_2 a {
+  border: none;
+  color: #fff;
+  padding: 7px 39px;
+  background: rgb(255 72 2);
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-size: 19px;
+}
+
+/* teaching_part */
+
+#teaching_part {
+  padding: 15rem 0;
+}
+
+#teaching_part .teaching_text .teaching_text_h2 {
+  font-size: 54px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 49px;
+}
+
+#teaching_part .teaching_text .teaching_text_p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(107 114 128);
+  padding: 19px 0;
+}
+
+#teaching_part .teaching_text a {
+  border: none;
+  color: #fff;
+  padding: 7px 39px;
+  background: rgb(255 72 2);
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-size: 19px;
+}
+
+#teaching_part .teaching_img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* referral_program ************** */
+
+#referral_program .referral_program_img img {
+  width: 108%;
+  height: 100%;
+}
+
+#referral_program .referral_program_text .referral_program_text_h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 49px;
+}
+
+#referral_program .referral_program_text .referral_program_text_p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(107 114 128);
+  padding: 19px 0;
+}
+
+#referral_program .referral_program_text span {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+#referral_program .referral_program_text i {
+  font-size: 15px;
+  color: #000000;
+  margin: 12px;
+}
+
+#referral_program .referral_program_text a {
+  color: #fff;
+  padding: 7px 39px;
+  background: rgb(255 72 2);
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  font-size: 19px;
+  margin-top: 5px;
+}
+
+
+/* student_say ****************** */
+
+#student_say .student_say_content {
+  padding: 20px 20px;
+  background: #fffbfb;
+  border-radius: 10px;
+  box-shadow: 1px 6px 14px -10px;
+}
+
+#student_say .student_say_content .student_say_content_h4 {
+  font-size: 21px;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+#student_say .student_say_content .student_say_content_h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#student_say .student_say_content .student_say_content_span {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(107 114 128);
+}
+
+#student_say .student_say_content .img_content_text {
+  margin: -80px 0 35px 99px;
+}
+
+
+
+/* fit_more******** */
+#fit_more {
+  padding: 10rem 0;
+}
+
+#fit_more .fit_more_content {
+  padding: 30px 0;
+  text-align: center;
+  background: rgb(208 56 1);
+  border-radius: 10px;
+}
+
+#fit_more .fit_more_content .fit_more_content_h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#fit_more .fit_more_content img {
+  margin: 31px 14px;
+}
+
+
+
+/* footer_part *************** */
+
+
+#footer_part {
+  padding: 60px 0;
+  background: rgb(71 85 105);
+}
+
+#footer_part .footer_content .footer_content_h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#footer_part .footer_content .footer_content_p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 25px;
+  line-height: 30px;
+}
+
+#footer_part .footer_content .icons a i {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #fffbfb;
+  color: rgb(71 85 105);
+  font-size: 14px;
+  border-radius: 7px;
+  margin: 21px 3px;
+}
+
+#footer_part .footer_content .footer_content_p a {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+}
+
+#footer_part .footer_content .footer_content_p span {
+  display: block;
+  padding-top: 20px;
+}
+
+#footer_part .footer_content ul li a {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  margin: 2px 0;
+}
+
+#footer_part .footer_content ul {
+  padding-top: 21px;
+}
+
+#footer_part .buttom_footer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .d {
+    margin: 5px 0 11px 25px !important;
+  }
+
+  .navbar-collapse {
+    margin-left: 12px;
+  }
+
+  .navbar-collapse .login_button {
+    margin: 22px 0 27px 80px;
+  }
+
+
+  #banner_part .banner_buttons .book {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .what {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .home {
+    display: block;
+  }
+
+  #banner_part .banner_buttons {
+    text-align: center;
+  }
+
+  #banner_part .banner_img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+  }
+
+  .mar-f {
+    margin-left: 19px;
+  }
+
+  #banner_part .banner_text .banner_text_h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 20px;
+  }
+
+  #banner_part .banner_text .banner_text_p {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 29px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_p {
+    font-size: 19px;
+    padding-top: 22px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_h2 {
+    font-size: 34px;
+    padding: 0px 61px;
+  }
+
+  #attach_banner .attach_banner_content ul li {
+    font-size: 15px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content {
+    text-align: center;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content_p {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .courses_part_header {
+    text-align: center;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_btn {
+    margin: -49px 252px 0 0px;
+}
+
+  #courses_part .courses_part_header .courses_part_header_p {
+    padding-bottom: 73px;
+  }
+
+
+  #courses_part .courses_part_header .courses_part_header_h3 {
+    color: #000000;
+    font-size: 29px;
+    padding-bottom: 10px;
+  }
+
+
+  #journey_part .journey_content_text_2 {
+    margin-left: 1rem;
+    padding-top: 3rem;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_h2 {
+    font-size: 49px;
+    text-align: center;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_p {
+    text-align: center;
+  }
+
+  #journey_part .journey_content_text_2 a {
+    letter-spacing: 1px;
+    margin: 0 0 0 264px;
+}
+
+  #teaching_part .teaching_text .teaching_text_h2 {
+    font-size: 32px;
+    line-height: 37px;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  #teaching_part .teaching_text .teaching_text_p {
+    text-align: center;
+  }
+
+  #teaching_part .teaching_text a {
+    margin: 0px 64px 85px 260px;
+}
+
+  #referral_program .referral_program_img img {
+    width: 92%;
+  }
+
+  #student_say .student_say_content {
+    margin: 31px 0 -4px 0;
+  }
+
+  #referral_program .referral_program_text .referral_program_text_h2 {
+    font-size: 41px;
+    padding: 17px 20px;
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text .referral_program_text_p {
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text span {
+    font-size: 20px;
+}
+
+
+#referral_program .referral_program_text a {
+  margin: 5px 226px;
+}
+
+
+  #fit_more .fit_more_content .fit_more_content_h2 {
+    font-size: 33px;
+  }
+
+  #footer_part .buttom_footer p {
+    padding-top: 57px;
+  }
+
+  #footer_part {
+    text-align: center;
+  }
+
+  #footer_part .footer_content ul {
+    padding-top: 0px;
+  }
+
+  #footer_part .footer_content .footer_content_h3 {
+    padding: 40px 0;
+  }
+  #courses_part .courses_contents img {
+    height: 26rem;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .d {
+    margin: 5px 0 11px 25px !important;
+  }
+
+  .navbar-collapse {
+    margin-left: 12px;
+  }
+
+  .navbar-collapse .login_button {
+    margin: 22px 0 27px 80px;
+  }
+
+
+  #banner_part .banner_buttons .book {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .what {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .home {
+    display: block;
+  }
+
+  #banner_part .banner_buttons {
+    text-align: center;
+  }
+
+  #banner_part .banner_img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+  }
+
+  .mar-f {
+    margin-left: 19px;
+  }
+
+  #banner_part .banner_text .banner_text_h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 20px;
+  }
+
+  #banner_part .banner_text .banner_text_p {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 29px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_p {
+    font-size: 19px;
+    padding-top: 22px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_h2 {
+    font-size: 34px;
+    padding: 0px 61px;
+  }
+
+  #attach_banner .attach_banner_content ul li {
+    font-size: 15px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content {
+    text-align: center;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content_p {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .courses_part_header {
+    text-align: center;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_btn {
+    margin: -49px 107px 0 0px;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_p {
+    padding-bottom: 73px;
+  }
+
+
+  #courses_part .courses_part_header .courses_part_header_h3 {
+    color: #000000;
+    font-size: 29px;
+    padding-bottom: 10px;
+  }
+
+
+  #journey_part .journey_content_text_2 {
+    margin-left: 1rem;
+    padding-top: 3rem;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_h2 {
+    font-size: 49px;
+    text-align: center;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_p {
+    text-align: center;
+  }
+
+  #journey_part .journey_content_text_2 a {
+    letter-spacing: 1px;
+    margin: 0 0 0 109px;
+  }
+
+  #teaching_part .teaching_text .teaching_text_h2 {
+    font-size: 32px;
+    line-height: 37px;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  #teaching_part .teaching_text .teaching_text_p {
+    text-align: center;
+  }
+
+  #teaching_part .teaching_text a {
+    margin: 0px 64px 85px 98px;
+  }
+
+  #referral_program .referral_program_img img {
+    width: 92%;
+  }
+
+  #student_say .student_say_content {
+    margin: 31px 0 -4px 0;
+  }
+
+  #referral_program .referral_program_text .referral_program_text_h2 {
+    font-size: 41px;
+    padding: 17px 20px;
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text .referral_program_text_p {
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text span {
+    font-size: 19px;
+    display: block;
+  }
+
+
+  #referral_program .referral_program_text a {
+    margin: 5px 77px;
+  }
+
+
+  #fit_more .fit_more_content .fit_more_content_h2 {
+    font-size: 33px;
+  }
+
+  #footer_part .buttom_footer p {
+    padding-top: 57px;
+  }
+
+  #footer_part {
+    text-align: center;
+  }
+
+  #footer_part .footer_content ul {
+    padding-top: 0px;
+  }
+
+  #footer_part .footer_content .footer_content_h3 {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 433.992px) {
+  .d {
+    margin: 5px 0 11px 25px !important;
+  }
+
+  .navbar-collapse {
+    margin-left: 12px;
+  }
+
+  .navbar-collapse .login_button {
+    margin: 22px 0 27px 80px;
+  }
+
+
+  #banner_part .banner_buttons .book {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .what {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .home {
+    display: block;
+  }
+
+  #banner_part .banner_buttons {
+    text-align: center;
+  }
+
+  #banner_part .banner_img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+  }
+
+  .mar-f {
+    margin-left: 19px;
+  }
+
+  #banner_part .banner_text .banner_text_h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 20px;
+  }
+
+  #banner_part .banner_text .banner_text_p {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 29px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_p {
+    font-size: 19px;
+    padding-top: 22px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_h2 {
+    font-size: 34px;
+    padding: 0px 61px;
+  }
+
+  #attach_banner .attach_banner_content ul li {
+    font-size: 15px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content {
+    text-align: center;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content_p {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .courses_part_header {
+    text-align: center;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_btn {
+    margin: -49px 107px 0 0px;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_p {
+    padding-bottom: 73px;
+  }
+
+
+  #courses_part .courses_part_header .courses_part_header_h3 {
+    color: #000000;
+    font-size: 29px;
+    padding-bottom: 10px;
+  }
+
+
+  #journey_part .journey_content_text_2 {
+    margin-left: 1rem;
+    padding-top: 3rem;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_h2 {
+    font-size: 49px;
+    text-align: center;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_p {
+    text-align: center;
+  }
+
+  #journey_part .journey_content_text_2 a {
+    letter-spacing: 1px;
+    margin: 0 0 0 109px;
+  }
+
+  #teaching_part .teaching_text .teaching_text_h2 {
+    font-size: 32px;
+    line-height: 37px;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  #teaching_part .teaching_text .teaching_text_p {
+    text-align: center;
+  }
+
+  #teaching_part .teaching_text a {
+    margin: 0px 64px 85px 98px;
+  }
+
+  #referral_program .referral_program_img img {
+    width: 92%;
+  }
+
+  #student_say .student_say_content {
+    margin: 31px 0 -4px 0;
+  }
+
+  #referral_program .referral_program_text .referral_program_text_h2 {
+    font-size: 41px;
+    padding: 17px 20px;
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text .referral_program_text_p {
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text span {
+    font-size: 19px;
+    display: block;
+  }
+
+
+  #referral_program .referral_program_text a {
+    margin: 5px 77px;
+  }
+
+
+  #fit_more .fit_more_content .fit_more_content_h2 {
+    font-size: 33px;
+  }
+
+  #footer_part .buttom_footer p {
+    padding-top: 57px;
+  }
+
+  #footer_part {
+    text-align: center;
+  }
+
+  #footer_part .footer_content ul {
+    padding-top: 0px;
+  }
+
+  #footer_part .footer_content .footer_content_h3 {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 393.852px) {
+  .d {
+    margin: 5px 0 11px 23px !important;
+  }
+
+
+  .navbar-collapse {
+    margin-left: 12px;
+  }
+
+  .navbar-collapse .login_button {
+    margin: 22px 0 27px 61px;
+  }
+
+
+  #banner_part .banner_buttons .book {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .what {
+    display: block;
+  }
+
+  #banner_part .banner_buttons .home {
+    display: block;
+  }
+
+  #banner_part .banner_buttons {
+    text-align: center;
+  }
+
+  #banner_part .banner_img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+  }
+
+  .mar-f {
+    margin-left: 19px;
+  }
+
+  #banner_part .banner_text .banner_text_h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 20px;
+  }
+
+  #banner_part .banner_text .banner_text_p {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 29px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_p {
+    font-size: 19px;
+    padding-top: 22px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_header .choose_rik_elearning_header_h2 {
+    font-size: 34px;
+    padding: 0px 61px;
+  }
+
+  #attach_banner .attach_banner_content ul li {
+    font-size: 15px;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content {
+    text-align: center;
+  }
+
+  #choose_rik_elearning .choose_rik_elearning_content_p {
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  .courses_part_header {
+    text-align: center;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_btn {
+    margin: -49px 81px 0 0px;
+  }
+
+  #courses_part .courses_part_header .courses_part_header_p {
+    padding-bottom: 73px;
+  }
+
+
+  #courses_part .courses_part_header .courses_part_header_h3 {
+    color: #000000;
+    font-size: 29px;
+    padding-bottom: 10px;
+  }
+
+
+  #journey_part .journey_content_text_2 {
+    margin-left: 1rem;
+    padding-top: 3rem;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_h2 {
+    font-size: 49px;
+    text-align: center;
+  }
+
+
+  #journey_part .journey_content_text_2 .journey_content_text_p {
+    text-align: center;
+  }
+
+  #journey_part .journey_content_text_2 a {
+    letter-spacing: 1px;
+    margin: 0 0 0 83px;
+  }
+
+  #teaching_part .teaching_text .teaching_text_h2 {
+    font-size: 32px;
+    line-height: 37px;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  #teaching_part .teaching_text .teaching_text_p {
+    text-align: center;
+  }
+
+  #teaching_part .teaching_text a {
+    margin: 0 64px 85px 65px;
+  }
+
+  #referral_program .referral_program_img img {
+    width: 92%;
+  }
+
+  #student_say .student_say_content {
+    margin: 31px 0 -4px 0;
+  }
+
+  #referral_program .referral_program_text .referral_program_text_h2 {
+    font-size: 41px;
+    padding: 17px 20px;
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text .referral_program_text_p {
+    text-align: center;
+  }
+
+
+  #referral_program .referral_program_text span {
+    font-size: 19px;
+    display: block;
+  }
+
+
+  #referral_program .referral_program_text a {
+    margin: 5px 48px;
+  }
+
+
+  #fit_more .fit_more_content .fit_more_content_h2 {
+    font-size: 30px;
+  }
+
+  #footer_part .buttom_footer p {
+    padding-top: 57px;
+  }
+
+  #footer_part {
+    text-align: center;
+  }
+
+  #footer_part .footer_content ul {
+    padding-top: 0px;
+  }
+
+  #footer_part .footer_content .footer_content_h3 {
+    padding: 40px 0;
+  }
+
+
+}
+
+/* =========================================
+                Responsive css End
+    ======================================= */
